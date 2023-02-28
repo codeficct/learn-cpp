@@ -1,3 +1,25 @@
 # ninja log v5
 0	770	1677601553666169249	CMakeFiles/cpp_learn.dir/main.cpp.o	b11efa44931ac9db
-771	895	1677601553790171676	cpp_learn	3ed36ab32208a91c
+595	696	1677611137257192027	cpp_learn	3b5099b4a4919a9c
+1	595	1677611137157191424	CMakeFiles/cpp_learn.dir/src/operations.cpp.o	66b5ed04a32691f3
+0	741	1677608143394586972	CMakeFiles/cpp_learn.dir/src/dataTypes.cpp.o	b75188b7761ae6cd
+1	856	1677610710017594969	CMakeFiles/cpp_learn.dir/src/main.cpp.o	e746998d73fc0e67
+1	1345	1677612849867849223	CMakeFiles/cpp_learn.dir/src/main.cpp.o	e746998d73fc0e67
+2	2014	1677612850535855542	CMakeFiles/cpp_learn.dir/src/dataType.cpp.o	9d48f88fb308073
+1	2114	1677612850639856526	CMakeFiles/cpp_learn.dir/src/operations.cpp.o	66b5ed04a32691f3
+1347	2826	1677612851351863261	CMakeFiles/cpp_learn.dir/src/conditionalStructure.cpp.o	6acbcd94bb4dabff
+2826	3024	1677612851547865115	cpp_learn	15a2b9016342ef18
+1	723	1677625508932277560	CMakeFiles/cpp_learn.dir/src/main.cpp.o	e746998d73fc0e67
+1	1150	1677625509360283121	CMakeFiles/cpp_learn.dir/src/operations.cpp.o	66b5ed04a32691f3
+2	1150	1677625509360283121	CMakeFiles/cpp_learn.dir/src/conditionalStructure.cpp.o	6acbcd94bb4dabff
+1150	1343	1677625509552285616	cpp_learn	15a2b9016342ef18
+1	1547	1677625558920928144	CMakeFiles/cpp_learn.dir/src/conditionalStructure.cpp.o	6acbcd94bb4dabff
+1548	1798	1677625559168931377	cpp_learn	15a2b9016342ef18
+4	1327	1677625580897214791	CMakeFiles/cpp_learn.dir/src/conditionalStructure.cpp.o	6acbcd94bb4dabff
+1327	1541	1677625581113217609	cpp_learn	15a2b9016342ef18
+1	1782	1677625675554453407	CMakeFiles/cpp_learn.dir/src/conditionalStructure.cpp.o	6acbcd94bb4dabff
+1782	2072	1677625675850457290	cpp_learn	15a2b9016342ef18
+1	1301	1677626228777778676	CMakeFiles/cpp_learn.dir/src/conditionalStructure.cpp.o	6acbcd94bb4dabff
+1301	1498	1677626228969781235	cpp_learn	15a2b9016342ef18
+1	675	1677626320375000327	CMakeFiles/cpp_learn.dir/src/conditionalStructure.cpp.o	6acbcd94bb4dabff
+676	779	1677626320479001715	cpp_learn	15a2b9016342ef18

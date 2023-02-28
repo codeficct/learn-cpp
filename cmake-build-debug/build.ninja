@@ -49,11 +49,29 @@ cmake_ninja_workdir = /home/sauter/CLionProjects/cpp-learn/cmake-build-debug/
 
 build cmake_object_order_depends_target_cpp_learn: phony || CMakeFiles/cpp_learn.dir
 
-build CMakeFiles/cpp_learn.dir/main.cpp.o: CXX_COMPILER__cpp_learn_Debug /home/sauter/CLionProjects/cpp-learn/main.cpp || cmake_object_order_depends_target_cpp_learn
-  DEP_FILE = CMakeFiles/cpp_learn.dir/main.cpp.o.d
+build CMakeFiles/cpp_learn.dir/src/main.cpp.o: CXX_COMPILER__cpp_learn_Debug /home/sauter/CLionProjects/cpp-learn/src/main.cpp || cmake_object_order_depends_target_cpp_learn
+  DEP_FILE = CMakeFiles/cpp_learn.dir/src/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   OBJECT_DIR = CMakeFiles/cpp_learn.dir
-  OBJECT_FILE_DIR = CMakeFiles/cpp_learn.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_learn.dir/src
+
+build CMakeFiles/cpp_learn.dir/src/operations.cpp.o: CXX_COMPILER__cpp_learn_Debug /home/sauter/CLionProjects/cpp-learn/src/operations.cpp || cmake_object_order_depends_target_cpp_learn
+  DEP_FILE = CMakeFiles/cpp_learn.dir/src/operations.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles/cpp_learn.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_learn.dir/src
+
+build CMakeFiles/cpp_learn.dir/src/dataType.cpp.o: CXX_COMPILER__cpp_learn_Debug /home/sauter/CLionProjects/cpp-learn/src/dataType.cpp || cmake_object_order_depends_target_cpp_learn
+  DEP_FILE = CMakeFiles/cpp_learn.dir/src/dataType.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles/cpp_learn.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_learn.dir/src
+
+build CMakeFiles/cpp_learn.dir/src/conditionalStructure.cpp.o: CXX_COMPILER__cpp_learn_Debug /home/sauter/CLionProjects/cpp-learn/src/conditionalStructure.cpp || cmake_object_order_depends_target_cpp_learn
+  DEP_FILE = CMakeFiles/cpp_learn.dir/src/conditionalStructure.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles/cpp_learn.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_learn.dir/src
 
 
 # =============================================================================
@@ -63,7 +81,7 @@ build CMakeFiles/cpp_learn.dir/main.cpp.o: CXX_COMPILER__cpp_learn_Debug /home/s
 #############################################
 # Link the executable cpp_learn
 
-build cpp_learn: CXX_EXECUTABLE_LINKER__cpp_learn_Debug CMakeFiles/cpp_learn.dir/main.cpp.o
+build cpp_learn: CXX_EXECUTABLE_LINKER__cpp_learn_Debug CMakeFiles/cpp_learn.dir/src/main.cpp.o CMakeFiles/cpp_learn.dir/src/operations.cpp.o CMakeFiles/cpp_learn.dir/src/dataType.cpp.o CMakeFiles/cpp_learn.dir/src/conditionalStructure.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/cpp_learn.dir
   POST_BUILD = :
