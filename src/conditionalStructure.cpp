@@ -1,20 +1,21 @@
 #include <iostream>
-#include <string>
-#include "header.h"
 
 using namespace std;
 
-void conditionalStructure() {
+void conditionalStructure()
+{
   string movie;
+  float price;
   // Console output
   cout << "Favorite movie: ";
   // Console input
   cin >> movie;
-  if (movie == "StarWars") cout << "My favorite movie is: " << movie << endl;
 
-  float price;
+  if (movie == "StarWars")
+    cout << "My favorite movie is: " << movie << endl;
+
   cout << "Precio de la prenda: ";
-  cin >> price;
+  cin >> price; // Set price of the cloth
   string isCheapOrExpensive = (price > 10) ? "cara" : "barata";
-  cout << "La prenda es " << isCheapOrExpensive;
+  cout << "[conditionalStructure] La prenda es " << isCheapOrExpensive;
 }
