@@ -3,7 +3,9 @@
 
 void dataType();
 void operations();
-
 void conditionalStructure();
+void interactiveStructures();
+void control1();
+void functions();
 
 #endif
