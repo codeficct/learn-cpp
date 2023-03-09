@@ -6,8 +6,9 @@ int main()
 {
   // dataType();
   // operations();
-  conditionalStructure();
-  cout << "Thanks for use my app :)" << endl;
-
+  // conditionalStructure();
+  // interactiveStructures();
+  // control1();
+  functions();
   return 0;
 }
