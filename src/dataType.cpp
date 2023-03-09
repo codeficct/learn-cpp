@@ -3,7 +3,8 @@
 
 using namespace std;
 
-void dataType() {
+void dataType()
+{
   // Integer
   int apples = 5;
   int parking = -1;
@@ -14,10 +15,8 @@ void dataType() {
   double centimeters = -0.67;
   // Boolean
   bool isGreen = true; // 1
-  bool isRed = false; // 0
+  bool isRed = false;  // 0
   // Character - string
   char letter = 'R';
   string name = "Luis";
-  cout << apples << parking << positiveTransaction << negativeTransaction << price << centimeters
-       << isGreen << isRed << letter << name << endl;
 }

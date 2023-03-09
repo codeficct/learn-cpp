@@ -16,5 +16,5 @@ void conditionalStructure()
   cout << "Precio de la prenda: ";
   cin >> price; // Set price of the cloth
   string isCheapOrExpensive = (price > 10) ? "cara" : "barata";
-  cout << "[conditionalStructure] La prenda es " << isCheapOrExpensive;
+  cout << "[conditionalStructure] La prenda es " << isCheapOrExpensive << endl;
 }
