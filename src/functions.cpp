@@ -30,9 +30,7 @@ void getFactorialValue(int &number)
   int factorial = 1;
 
   for (int i = abs(number); i > 0; i--)
-  {
     factorial *= i;
-  }
 
   if (number < 0)
     factorial *= -1;
@@ -46,3 +44,4 @@ int recursiveFactorial(int number)
     return 1;
   return recursiveFactorial(abs(number) - 1) * number;
 }
+
