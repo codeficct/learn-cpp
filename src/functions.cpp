@@ -1,10 +1,10 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 using namespace std;
 
-int getAbsoluteValue(int number); // param: value
-void getFactorialValue(int &number);  // param: reference
-int recursiveFactorial(int number);   // param: value
+int getAbsoluteValue(int number);    // param: value
+void getFactorialValue(int &number); // param: reference
+int recursiveFactorial(int number);  // param: value
 
 void functions()
 {
@@ -44,4 +44,3 @@ int recursiveFactorial(int number)
     return 1;
   return recursiveFactorial(abs(number) - 1) * number;
 }
-
