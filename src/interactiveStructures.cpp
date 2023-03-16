@@ -9,9 +9,7 @@ void interactiveStructures()
 
   // For loop
   for (int i = 0; i < count; i++)
-  {
     cout << "(FOR) iteration = " << i << endl;
-  }
 
   // While loop
   int i = 0;
@@ -23,6 +21,7 @@ void interactiveStructures()
 
   // Do-while loop
   int k = 0;
+
   do
   {
     cout << "(DO-WHILE) iteration = " << k << endl;
