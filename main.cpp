@@ -1,6 +1,4 @@
-#include <iostream>
 #include "header.h"
-using namespace std;
 
 int main()
 {
@@ -9,6 +7,10 @@ int main()
   // conditionalStructure();
   // interactiveStructures();
   // control1();
-  functions();
+  // functions();
+  // arrays();
+  // vectores();
+  // structures();
+  matrixs();
   return 0;
 }
