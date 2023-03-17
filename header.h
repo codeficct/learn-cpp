@@ -7,5 +7,9 @@ void conditionalStructure();
 void interactiveStructures();
 void control1();
 void functions();
+void arrays();
+void vectores();
+void structures();
+void matrixs();
 
 #endif
